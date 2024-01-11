@@ -7,6 +7,7 @@ SELECT
     Products.ProductID,
     Products.ProductName,
     Products.Price
+    Products.Type
 FROM
     Users
 JOIN Purchases ON Users.UserID = Purchases.UserID
