@@ -6,8 +6,9 @@ SELECT
     Users.FirstName,
     Products.ProductID,
     Products.ProductName,
-    Products.Price
-    Products.Type
+    Products.Price,
+    Products.Type,
+    Products.Status
 FROM
     Users
 JOIN Purchases ON Users.UserID = Purchases.UserID
