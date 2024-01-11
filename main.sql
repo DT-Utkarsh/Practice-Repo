@@ -3,6 +3,7 @@ SELECT
     Users.UserID,
     Users.UserName,
     Users.Email,
+    Users.FirstName,
     Products.ProductID,
     Products.ProductName,
     Products.Price
